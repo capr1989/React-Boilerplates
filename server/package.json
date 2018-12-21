@@ -21,12 +21,10 @@
     "mini-css-extract-plugin": "^0.5.0",
     "nodemon": "^1.18.9",
     "npm-run-all": "^4.1.5",
-    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.1",
     "webpack-cli": "^3.1.2",
-    "webpack-merge": "^4.1.5",
-    "webpack-node-externals": "^1.7.2"
+    "webpack-merge": "^4.1.5"
   },
   "dependencies": {
     "express": "^4.16.4",

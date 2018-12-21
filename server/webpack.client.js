@@ -33,7 +33,7 @@ const config = {
 
 module.exports = merge(
   base(true, {
-    test: /\.scss$/,
+    test: /\.css$/,
     use: [
       {
         loader: MiniCssExtractPlugin.loader,
@@ -43,12 +43,6 @@ module.exports = merge(
       },
       {
         loader: "css-loader",
-        options: {
-          sourceMap: true
-        }
-      },
-      {
-        loader: "sass-loader",
         options: {
           sourceMap: true
         }

@@ -16,7 +16,7 @@ module.exports = (option, loaders) => {
                     "@babel/preset-env",
                     {
                       targets: {
-                        browsers: "last 10 versions"
+                        browsers: "last 2 versions"
                       }
                     }
                   ],

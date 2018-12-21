@@ -13,7 +13,6 @@ const config = {
     path: __dirname + "/dist",
     publicPath: "/",
     filename: "[name]-bundle.js"
-  },
-  externals: [nodeExternals()]
+  }
 };
 module.exports = merge(base(false, {}), config);
