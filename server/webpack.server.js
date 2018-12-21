@@ -1,6 +1,5 @@
 const base = require("./webpack.base.js");
 const merge = require("webpack-merge");
-const nodeExternals = require("webpack-node-externals");
 
 const config = {
   mode: "development",
