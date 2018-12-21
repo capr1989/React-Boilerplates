@@ -10,7 +10,7 @@
     "dev:server": "nodemon --watch dist --exec \"node dist/main-bundle.js\" index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Carlos Pretto",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.2.2",
